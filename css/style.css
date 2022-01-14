@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(../img/loon-image-high.svg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    max-width: 100%;
+    width: 100%;
+    background-size: 100%;
+}
+.container {
+    max-width: 1440px;
+    /* убрал т.к. все поплыло, не понял в чем ошибка*/
+    /* width: 1284px; */
+    margin-left: 121px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 49px;
+}
+.nav__links {
+    display: flex;
+    /*Блин, тут не получалось разделить блок конец прилипало к краю экрана поэтому задал это значение*/
+    margin-right: 180px;
+}
+.nav__links nav {
+    display: flex;
+    margin-top: 19px;
+}
+.nav__links li {
+    list-style: none;
+}
+.nav__links a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 17px;
+    margin-left: 38px;
+    transition: all 0.2s ease-in-out;
+}
+.nav__links a:hover {
+    color: #C87136;
+}
+.nav__reg {
+    margin-left: 63px;
+    margin-top: 7px;
+}
+.nav__reg button {
+    padding: 14px 27px;
+    background-color: #B6B9C7;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+}
+.nav__reg button:hover {
+    opacity: .9;
+    cursor: pointer;
+}
+.info__intro {
+    margin-top: 152px;
+}
+.info__intro h1 {
+    font-family: 'FoglihtenNo06';
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 75px;
+    color: #FFFFFF;
+}
+.info__btn {
+    margin-top: 34px;
+}
+.info__btn button {
+    padding: 10px 25px;
+    background-color: #C87136;
+    border: 1px solid #C87136;
+    border-radius: 3px;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.info__btn button:hover {
+    background: none;
+}
